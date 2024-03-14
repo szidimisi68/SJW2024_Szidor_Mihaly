@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
 header{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 400px;
     background-image: url('/img/balaton_bg.jpg');
     background-size: cover;
@@ -13,4 +15,55 @@ nav{
 
 a:active{
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+.focim{
+    font-size: 3rem;
+    font-stretch: 3px;
+    font-family: "Marhey", sans-serif;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px black;
+    color: white;
+}
+
+.alcim{
+    font-family: "Marhey", sans-serif;
+    text-transform: capitalize;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    color: #1283b9;
+    text-decoration-color: #1283b9;
+}
+
+.tablacim{
+    font-family: "Marhey", sans-serif;
+    color: white;
+}
+.vilagos{
+    background-color: #1283b9;
+}
+.sotet{
+    background-color: #06435f;
+}
+.cimkep{
+    box-shadow: 1px 1px 3px black;
+}
+
+
+@media (max-width:992px){
+    .focim{
+        font-size: 1.5rem;
+    }
+}
+
+table{
+    box-shadow: 1px 1px 10px #06435f;
+    width: 80%;
+    margin: auto;
+
+}
+
+td,th{
+    padding: 10px;
+    text-align: center;
 }
