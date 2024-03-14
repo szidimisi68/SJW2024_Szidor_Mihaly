@@ -66,4 +66,15 @@ table{
 td,th{
     padding: 10px;
     text-align: center;
+    background-color: rgba(18, 131, 185, 0.1);
+}
+
+.szines:hover{
+    background-color: rgba(18, 131, 185, 0.7);
+}
+
+.elso{
+    font-weight: bold;
+    font-variant: small-caps;
+    width: 25%;
 }
